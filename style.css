@@ -1,0 +1,467 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    height: 97vh;
+    width: 100vw;
+}
+
+
+/* -------------------------------------------Navbar ----------------------------------- */
+
+
+
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    background-color: #F7F7F7;
+    color:black;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.963);
+    padding: .5rem;
+    font-size: .9em;
+}
+nav ul li a:hover, nav ul li a.active {
+    color: red;
+}
+.navbar li i{
+    margin-left: 1.8em;
+}
+.navbar ul{
+    margin-left: 10em;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0% 0%;
+}
+.navbar img{
+    height: 8vh;
+    width: 13vw;
+    padding-left: 11em;
+}
+.navbar button{
+    background-color: #0074D9;
+    color: white;
+    font-weight: bold;
+    width: 10em;
+    height: 3em;
+    margin-left: 3em;
+    border-radius: 1em;
+    font-size: .9em;
+    border: solid 0%;
+    border-color: #F7F7F7;
+}
+.navbar button:hover{
+    background-color: #0056b3;
+}
+
+
+
+/* -------------------------------------------lower header ----------------------------------- */
+
+.lower_header {
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    width: 100vw;
+}
+
+#video-bg {
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    z-index: -1;
+}
+
+.lower_header_content {
+    position: relative;
+    z-index: 1; 
+    color: white;
+    margin-left:7em;
+    padding-top: 6em;
+    font-weight: bold;
+}
+
+.lower_header_content h3{
+    font-size: 1.3em;
+    text-align: left;
+}
+.lower_header_content h2{
+    font-size: 3.5em;
+    padding-top: 1em;
+    padding-bottom: .2em;
+}
+.lower_header_content p{
+    font-size: 1em;
+    color: rgb(239, 232, 232);
+    padding-bottom: 2em;
+}
+.lower_header button ,.right_upper_footer button{
+    background-color: #007AFF;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    width: 8em;
+    height: 3em;
+    border-radius: .8em;
+    font-size: .9em;
+    border-color: #007AFF;
+}
+.lower_header button:hover,.right_upper_footer button:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.lower_header_content a{
+    padding-left: 2em;
+    color: white;
+    text-decoration: none;
+}
+.lower_header_content a:hover{
+    color: rgba(255, 255, 255, 0.728);
+}
+
+
+
+/* ---------------------------------------------------what we do -------------------------------- */
+
+.mission{
+    display: flex;
+    padding-top: 3%;
+    height: 100vh;
+    width: 92vw;
+}
+.left{
+    margin-right: 12%;
+}
+.left p{
+    font-size: 2.5em;
+    width: 50;
+    color: #0074D9;
+    padding-left: 88%;
+}
+.right{
+    padding-left: 8%;
+}
+.right h2{
+    font-size: 3.5em;
+    width: bold;
+    margin-bottom: .20em;
+    font-family: none;
+}
+.right p{
+    color: #666666;
+    font-size: 1.2em;
+    padding: .5em 1.5em .8em 0em;
+    line-height: 1.5;
+}
+.right .upper{
+    padding-bottom: 5%;
+}
+.right .lower{
+    display: flex;
+    padding-right: 2%;
+}
+.card{
+    height: 25vh;
+    width: 20vw;
+}
+.card h3{
+    color: #000000;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Heebo',sans-serif;
+    padding-bottom: .2em;
+}
+.right .lower .card p{
+    color:#666666;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+    padding-left: 0;
+}
+.card i{
+    font-size: 3em;
+    color: #0074D9;
+    padding-bottom: .7em;
+}
+
+
+
+/* ------------------------------------------------start up ------------------------------------------------------*/
+
+.startup img{
+    height: 50vh;
+    width: 100vw;
+    margin-bottom: -1%;
+}
+
+
+
+/* --------------------------------------------------------services--------------------------------------------------*/
+
+
+
+.services{
+    padding-top: 8%;
+    height: 100vh;
+    width: 100vw;
+    background-color:#f7f7f7e8;
+}
+.headings h2,h3,h4{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.headings h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 1em;
+    color: #0056b3;
+}
+.services div h3{
+    font-size: 3em;
+    color: #333333;
+}
+.services div h4{
+    font-size: 1.5em;
+    color: #666666;
+    font-weight: bold;
+}
+.service_cards{
+    padding-left: 8em;
+}
+.row{
+    display: flex;
+    margin: auto;/
+}
+.row .card{
+    display: flex;
+    margin: auto;
+    height: 22vh;
+    width: 33em;
+    margin: 2%;
+    color:black;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.card h5{
+    font-family: 'Heebo', sans-serif;
+    font-size: 180%;
+    padding: 2% 0% 4% 4%;
+}
+.card p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-left: 4%;
+}
+
+
+/* -------------------------------------------------------------Reviews--------------------------------------------*/
+
+
+
+.reviews{
+    display: flex;
+    background-color: #0a54a4;
+    color: white;
+    font-family: sans-serif;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 5em;
+}
+.reviews img{
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+}
+.reviews .rev{
+    width: 36%;
+    padding-left: 9%;
+}
+.reviews .rev2{
+    width: 36%;
+    padding-left: 4%;
+}
+.stars i{
+    color: #FFD700;
+    padding-bottom: 1.7em;
+}
+.rev, .rev2 p{
+    font-family: cursive;
+    line-height: 1.5em;
+    font-size: 103%;
+}
+
+.org{
+    display: flex;
+    padding-top: 1.7em;
+}
+.org h5{
+    padding: 1% 4%;
+}
+
+
+
+
+/* -----------------------------------------------------numbers------------------------------------------ */
+
+
+
+.counts{
+    display: flex;
+    height: 40vh;
+    width: 100vw;  
+}
+.counts h2{
+    padding-left: 6em;
+    padding-top: 1.5em;
+    font-size: 3em;
+    color: rgb(45, 99, 199);
+    text-align: right;
+}
+.counts .num{
+    text-align: center;
+    padding-left: 3%;
+    padding-top: 4em;
+}
+.num hr{
+    width: 60%;
+    height: 2%;
+    background-color: #0056b3;
+    margin: auto;
+}
+.num h4{
+    color: #000000;
+    font-size: 200%;
+    padding: 11% 0% 6% 0%;
+}
+.num p{
+    font-size: 5em;
+    color: #0056b3;
+}
+
+
+
+
+/* --------------------------------------------contact us ------------------------------------------------- */
+
+footer{
+    width: 100vw;
+}
+.upper_footer{
+    display: flex;
+    background-color: #1e1d1dee;
+    color: #F7F7F7;
+    height: 75vh;
+    padding: 2% 0% 0% 4%;
+}
+.left_upper_footer{
+    margin: 3% 0% 6% 0%;
+    padding: 0% 7% 0% 4%;
+    border-right: solid #f7f7f715;
+    width: 36%;
+}
+.left_upper_footer h5{
+    font-size: 255%;
+    margin-right: -5em;
+    padding-bottom: 6%;
+    line-height: 1.3em;
+}
+.left_upper_footer h6{
+    font-size: 124%;
+    line-height: 138%;
+}
+.left_upper_footer p {
+    font-size: 113%;
+    padding-top: 6%;
+    color: darkgray;
+    line-height: 1.3em;
+}
+
+
+.right_upper_footer{
+    text-align: left;
+    padding: 3% 0% 0% 5%;
+    width: 40%;
+}
+.right_upper_footer h3{
+    text-align: left;
+    font-size: 188%;
+    padding-bottom: 4%;
+}
+.right_upper_footer input{
+    font-family: inherit;
+    color: #666;
+    width: 25em;
+    font-size: 18px;
+    padding:.75em;
+    border: 1px solid #dddddd;
+    border-radius: 2%;
+    margin-bottom: 2%;
+    background-color: #fafafa;
+}
+#msg{
+    padding-bottom: 12%;
+}
+
+
+
+
+
+/* ------------------------------------------------------lower footer--------------------------------------------------- */
+footer .lower_footer{
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    text-align: left;
+    height: 65vh;
+    font-weight: 400;
+    background-color: #F7F7F7;
+    color: #4B4F58;
+    padding-top: 8%;
+}
+footer .lower_footer .links{
+    display: flex;
+    padding-left: 0%;
+    line-height: 168%;
+}
+footer .lower_footer .links .part{
+    width: 25%;
+    font-size: 18px;
+    font-style: inherit;
+    padding-left: 8%;
+}
+footer .lower_footer ul{
+    list-style-type: none;
+}
+footer .lower_footer ul li:first-child{
+    font-family: 'Heeba',sans-serif;
+    font-size: 26px;
+    padding: 10% 0%;
+}
+footer .lower_footer ul li:not(:first-child):hover , footer .lower_footer i{
+    color: #0074D9;
+}
+footer .lower_footer i{
+    padding: 7% 3%;
+    font-size: 22px;
+}
+footer .lower_footer img{
+    height: 30%;
+    width: 90%;
+}
+footer .lower_footer .copy{
+    margin: 5% 16%;
+}
